@@ -1,4 +1,5 @@
-# Resume Extraction Project
+# Project Title
+# Resume Parser using OCR & FastAPI
 Developing an advanced resume extraction system using OCR to convert scanned and PDF documents into machine-readable text.
 Built a robust pipeline to transform unstructured resume data into structured JSON format for downstream applications.
 Implemented entity extraction (name, email, phone, education, ID details) using Regex and SpaCy (NER).
@@ -8,3 +9,26 @@ Enabled end-to-end workflow: document upload → OCR → data extraction → JSO
 Applied data validation and error handling for reliable API performance.
 Built scalable backend architecture to support multiple resume formats and noisy data.
 Designed modular pipeline for scalable data extraction and transformation.
+# Features
+- OCR-based text extraction
+- Entity extraction (Name, Email, Phone, Education, etc.)
+- FastAPI REST API deployment
+- JSON structured output
+
+# Tech Stack
+- Python
+- FastAPI/API key header
+- SpaCy /NLP
+- Regex
+- OCR
+# API Flow
+Upload Resume → OCR → Data Extraction → JSON Output
+# Sample Output
+{
+  "candidateName": "Chandu S",
+  "address": "Sivajij Nagar, Rajampet-, Annamayya District",
+  "city": "Annamayya District",
+  "state": "A.P",
+  "country": "India",
+  "pinCode": "516115",
+}
